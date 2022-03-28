@@ -1,0 +1,19 @@
+package uz.pdp.bot;
+
+public interface BotState {
+    String CHOOSE_LANG="CHOOSE_LANG";
+    String SHARE_CONTACT="SHARE_CONTACT";
+    String SHARE_LOCATION="SHARE_LOCATION";
+    String SHARE_NAME="SHARE_NAME";
+    String ENTER_NAME="ENTER_NAME";
+
+    String SHOW_MENU="SHOW_MENU";
+
+    String SEE_PRODUCT="SEE_PRODUCT";
+    String GET_CURRENCY_RATE="GET_CURRENCY_RATE";
+    String EDIT="EDIT";
+
+    String CHANGE_NAME="CHANGE_NAME";
+    String CHANGE_PHONE="CHANGE_PHONE";
+    String CHANGE_LOCATION="CHANGE_LOCATION";
+}
